@@ -1,0 +1,333 @@
+.open-sans-normal-font {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.seceondary-bg {
+    background-color: #FFF8F3;
+
+}
+
+/* Header Style */
+.header {
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-left: 20px;
+
+
+
+}
+
+/* Navbar Style */
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+.text-hero {
+    color: #FD6E0A;
+}
+
+#unorderd-list {
+    display: flex;
+    list-style: none;
+
+    align-items: center;
+
+}
+
+li a {
+
+    margin-right: 51px;
+    text-decoration: none;
+}
+
+
+.dark-2 {
+    font-size: 20px;
+    color: #474747;
+}
+
+.btn-primary {
+    height: 64px;
+    width: 150px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+
+
+
+
+    background-color: #FD6E0A;
+}
+
+/* Banner Styles */
+
+.banner {
+    display: flex;
+    margin: 0 35px 0 200px;
+    justify-content: space-between;
+}
+
+img {
+    display: flex;
+    max-width: 580px;
+}
+
+.banner-hi {
+    color: #474747;
+
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 185px;
+    width: 177px;
+    height: 61px;
+
+
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.banner-description {
+    color: #757575;
+    width: 585px;
+    height: 60px;
+
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    /* margin: 30px; */
+    /* padding-left: 0px; */
+}
+
+.banner-button {
+    height: 64px;
+    width: 200px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    /* padding: 10px 35px; */
+
+
+
+
+    background-color: #FD6E0A;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Main Design */
+.about {
+    border-radius: 10px;
+    margin: 40px;
+
+    text-align: center;
+    font-size: 18px;
+    margin-top: 130px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    color: #757575;
+    width: 585px;
+    text-align: center;
+    padding-left: 235px;
+
+}
+
+main {
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+/* About Items */
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+/* What I Do */
+.wid {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+}
+
+.whi-description {
+    font-size: 18px;
+    width: 909px;
+    height: 90px;
+    text-align: center;
+    padding: 80px;
+    margin-top: 30px;
+}
+
+.whi-container {
+    display: flex;
+    justify-content: center;
+}
+
+.whi-skill {
+
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    /* margin: 10px; */
+    /* margin-top: 30px; */
+    margin-right: 24px;
+}
+
+.whi-skill-title {
+
+    margin-top: 15px;
+    color: #181818;
+}
+
+.whi-skill-description {
+    color: #757575;
+    font-size: 16px;
+    height: 196px;
+    width: 201px;
+}
+
+/* Last Heading */
+.resume {
+    margin-bottom: 120px;
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.last-resume {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    /* flex-direction: column; */
+}
+
+.head-cotainer {
+    text-align: left;
+}
+
+.head-container {
+
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* Btn-sec */
+.btn-sec {
+    font-size: 63px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    font-size: 25px;
+    background-color: #FD6E0A;
+    color: white;
+    height: 64;
+    width: 200;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+/* let's connect*/
+.lets-connect {
+    
+    justify-content: space-between;
+    
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    background: #FFF8F3
+}
+
+.connect {
+    text-align: left;
+    margin-right: 120px;
+}
+
+.connect-me {
+    padding: 20px;
+    text-align: left;
+    margin-right: 120px;
+}
+
+.img {
+    display: flex;
+    padding-right: 80px;
+}
+
+
+
+.form {
+    height: 64;
+    width: 6;
+    padding: 29px;
+}
+
+.c {
+    width: 900px;
+}
+
+.submit {
+    background: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
+    padding: 18px;
+    height: 60px;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Fotter */
+.footer {
+    text-align: center;
+}
