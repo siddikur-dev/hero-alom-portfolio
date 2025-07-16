@@ -358,12 +358,34 @@ main {
     .banner-hi {
         text-align: center;
     }
-    .section-description{
+
+    .section-description {
         padding-left: 0;
         text-align: start;
     }
-    .about-items{
+
+    .about-items {
         flex-direction: column;
         border: 1px solid tomato;
+    }
+
+    .whi-description {
+        width: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    img {
+        max-width: 149px;
+    }
+
+    .last-resume {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .head-container{
+        padding-left: 0;
     }
 }
