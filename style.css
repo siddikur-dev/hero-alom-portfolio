@@ -278,9 +278,9 @@ main {
 
 /* let's connect*/
 .lets-connect {
-    
+
     justify-content: space-between;
-    
+
     width: 100%;
     margin-bottom: 40px;
     display: flex;
@@ -330,4 +330,33 @@ main {
 /* Fotter */
 .footer {
     text-align: center;
+}
+
+
+/* responsive layout */
+
+@media screen and (max-width:576px) {
+
+    .whi-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #unorderd-list {
+        visibility: hidden;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header {
+        background-image: none;
+    }
+
+    .
+.banner-hi {
+    text-align: center;
+}
+
 }
